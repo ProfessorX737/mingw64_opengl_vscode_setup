@@ -1,6 +1,7 @@
 ## Bare-bones opengl setup for vscode windows
 
 The given code is a working example but you should set it up yourself so you are familiar with the process.
+(this is a revised version of steps at https://medium.com/@vivekjha92/setup-opengl-with-vs-code-82852c653c43)
 
 Prerequisite downloads:
 - Download GLFW windows pre-compiled x64 binaries from https://www.glfw.org/download.html.
