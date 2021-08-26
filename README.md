@@ -47,7 +47,7 @@ Make sure you read the parts that teach how to:
 - build and run without debugging (ctrl-F5)
 - build and debug (F5)
 
-Alter the args in tasks.json to be:
+Replace the args in tasks.json to be:
 ```json
 "args": [
     "-g",
@@ -60,6 +60,11 @@ Alter the args in tasks.json to be:
     "-o",
     "${workspaceFolder}/app.exe"
 ],
+```
+Also in the launch.json configurations replace "program" with:
+
+```json
+   "program": "${workspaceFolder}/app.exe",
 ```
 
 Doing ctrl-F5 should render a rectangle to a opengl window.
