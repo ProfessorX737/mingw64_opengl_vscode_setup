@@ -67,4 +67,4 @@ Also in the launch.json configurations replace "program" with:
    "program": "${workspaceFolder}/app.exe",
 ```
 
-Doing ctrl-F5 should render a rectangle to a opengl window.
+Clicking on main.cpp to make the file "active" then doing ctrl-F5 should render a rectangle to an opengl window.
