@@ -1,11 +1,11 @@
 ## Bare-bones opengl setup for vscode windows
 
-The given code is a working example but you should set it up yourself so you are familiar with the process
+The given code is a working example but you should set it up yourself so you are familiar with the process.
 
 Prerequisite downloads:
-- Download GLFW windows pre-compiled x64 binaries from https://www.glfw.org/download.html  
-- Follow instructions "Setting up GLAD" from https://learnopengl.com/Getting-started/Creating-a-window   
-- Follow instructions at https://code.visualstudio.com/docs/cpp/config-mingw#_prerequisites to download MSYS2 and adding C:\msys64\mingw64\bin to your PATH
+- Download GLFW windows pre-compiled x64 binaries from https://www.glfw.org/download.html.
+- Follow instructions "Setting up GLAD" from https://learnopengl.com/Getting-started/Creating-a-window. 
+- Follow instructions at https://code.visualstudio.com/docs/cpp/config-mingw#_prerequisites to download MSYS2 and adding C:\msys64\mingw64\bin to your PATH.
 
 Files you need from glfw and glad folders you downloaded:
 - glfw-\<current-version>.bin.WIN64/include/glfw3.h
